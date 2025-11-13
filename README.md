@@ -2,7 +2,7 @@
 
 This custom Lovelace card provides a beautiful, streamlined overview of your Kopia snapshot statuses right in your Home Assistant dashboard.
 
-It is **designed specifically to work with the data exposed by the official-unofficial Home Assistant custom component: [Kopia Webhook Integration] (https://github.com/SpaceFrags/kopia_webhook).**
+It is **designed specifically to work with the data exposed by the official-unofficial Home Assistant custom component: [Kopia Webhook Integration](https://github.com/SpaceFrags/kopia_webhook).**
 
 ---
 
