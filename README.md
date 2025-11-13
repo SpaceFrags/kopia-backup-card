@@ -87,10 +87,11 @@ From line 133 of `kopia_backup_card.js` the custom icons can be changed or set w
 | **homeassistant** | Yes | mdi:home-assistant |
 | **photo** | Yes | mdi:image-multiple |
 | **documents** | Yes | mdi:file-document |
-| ***** | Yes | mdi:database-sync |
+| * | Yes | mdi:database-sync |
 
 Custom icons pack used:
 [custom-brand-icons](https://github.com/elax46/custom-brand-icons)
+
 [Hass-Custom-Icons](https://github.com/MattFryer/Hass-Custom-Icons)
 
 
