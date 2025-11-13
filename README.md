@@ -76,7 +76,7 @@ show_shadow: true # Optional: Keep the shadow effect
 
 ## 🖼 Custom icons
 
-From line 133 of `kopia_backup_card.js` the custom icons can be changed or set with different combinations based on personal need, but some dafualt icons are already selected for some specific backups:
+From line 133 of `kopia_backup_card.js` the custom icons can be changed, set or added with different combinations based on personal need, but some dafault icons are already selected for some specific backups:
 
 | State | Native icon | Icon name |
 | :--- | :---: | :--- |
