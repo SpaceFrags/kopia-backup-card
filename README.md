@@ -4,6 +4,10 @@ This custom Lovelace card provides a beautiful, streamlined overview of your Kop
 
 It is **designed specifically to work with the data exposed by the official-unofficial Home Assistant custom component: [Kopia Webhook Integration](https://github.com/SpaceFrags/kopia_webhook).**
 
+by default some icons are set to recognize some specific backups with custom icons based on external packs (table at the end).
+
+<img width="524" height="242" alt="image" src="https://github.com/user-attachments/assets/eaccbc3c-c6ba-4423-bcfc-48da983498e1" />
+
 ---
 
 ## 💡 How It Works
@@ -67,4 +71,26 @@ type: custom:kopia-backup-card
 device: main_server_backups 
 name: Home Server Backups
 show_shadow: true # Optional: Keep the shadow effect
+
+---
+
+## 🖼 Custom icons
+
+From line 133 of `kopia_backup_card.js` the custom icons can be changed or set with different combinations based on personal need, but some dafualt icons are already selected for some specific backups:
+
+| State | Native icon | Icon name |
+| :--- | :---: | :--- |
+| **docker** | Yes | mdi:docker |
+| **immich** | Yes | mdi:camera-iris |
+| **nextcloud** | No | phu:nextcloud |
+| **paperless** | No | cust:paperless |
+| **homeassistant** | Yes | mdi:home-assistant |
+| **photo** | Yes | mdi:image-multiple |
+| **documents** | Yes | mdi:file-document |
+| ***** | Yes | mdi:database-sync |
+
+Custom icons pack used:
+[custom-brand-icons](https://github.com/elax46/custom-brand-icons)
+[Hass-Custom-Icons](https://github.com/MattFryer/Hass-Custom-Icons)
+
 
