@@ -71,7 +71,7 @@ type: custom:kopia-backup-card
 device: main_server_backups 
 name: Home Server Backups
 show_shadow: true # Optional: Keep the shadow effect
-
+```
 ---
 
 ## 🖼 Custom icons
