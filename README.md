@@ -2,7 +2,7 @@
 
 This custom Lovelace card provides a beautiful, streamlined overview of your Kopia snapshot statuses right in your Home Assistant dashboard.
 
-It is **designed specifically to work with the data exposed by the official-unofficial Home Assistant custom component: [Kopia Webhook Integration] (link-to-your-kopia-webhook-integration-repo-here).**
+It is **designed specifically to work with the data exposed by the official-unofficial Home Assistant custom component: [Kopia Webhook Integration] (https://github.com/SpaceFrags/kopia_webhook).**
 
 ---
 
@@ -25,24 +25,23 @@ The **Kopia Backup Status Card** automatically performs the following:
 ### Option 1: HACS (Recommended)
 
 1.  Ensure you have **HACS (Home Assistant Community Store)** installed.
-2.  In the HACS interface, navigate to **Frontend** (or "Lovelace").
-3.  Click the **...** menu in the top right and select **Custom repositories**.
-4.  Enter the URL of this GitHub repository and select **Lovelace** as the category.
-5.  Click **Add**.
-6.  Search for "Kopia Backup" in the HACS Frontend section and click **Install**.
-7.  **Reload** your Home Assistant frontend (a hard refresh `Ctrl+F5` or `Shift+F5` is recommended).
+2.  Click the **...** menu in the top right and select **Custom repositories**.
+3.  Enter the URL of this GitHub repository and select **Lovelace** as the category.
+4.  Click **Add**.
+5.  Search for "Kopia Backup" in the HACS Frontend section and click **Install**.
+6.  **Reload** your Home Assistant frontend (a hard refresh `Ctrl+F5` or `Shift+F5` is recommended).
 
 ### Option 2: Manual Installation
 
 1.  Download the `kopia_backup_card.js` file from the latest release of this repository.
-2.  Place the file into your Home Assistant configuration directory under `www/kopia-card/`.
-    * Path should look like: `/config/www/kopia-card/kopia_backup_card.js`
+2.  Place the file into your Home Assistant configuration directory under `www/kopia_backup_card/`.
+    * Path should look like: `/config/www/kopia_backup_card/kopia_backup_card.js`
 3.  Add a resource reference in your Lovelace configuration (via the UI or `ui-lovelace.yaml`):
 
     **If using the UI:**
-    * Go to **Settings** > **Dashboards** > **Resources**.
+    * Go to **Settings** > **Dashboards** > **...** > **Resources**.
     * Click **Add Resource**.
-    * **URL:** `/local/kopia-card/kopia_backup_card.js`
+    * **URL:** `/local/kopia_backup_card/kopia_backup_card.js`
     * **Type:** `JavaScript Module`
 
 ---
