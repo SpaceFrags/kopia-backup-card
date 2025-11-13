@@ -1,0 +1,7 @@
+{
+    "name": "Kopia Backup Card",
+    "render_readme": true,
+    "country": ["CH"],
+    "content_in_root": false,
+    "hacs": "1.0.0" 
+}
