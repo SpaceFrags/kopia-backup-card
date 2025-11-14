@@ -30,7 +30,7 @@ The **Kopia Backup Status Card** automatically performs the following:
 
 The easiest way to install the Kopia Backup Card is via HACS.
 
-[![Open your Home Assistant instance and open a repository in the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?repository=SpaceFrags/kopia-backup-card&type=plugin)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=SpaceFrags&repository=kopia-backup-card&category=plugin)
 
 ### Option 2: Manual HACS Installation
 
