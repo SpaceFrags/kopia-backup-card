@@ -2,7 +2,4 @@
       "name": "Kopia Backup Card",
       "filename": "kopia_backup_card.js",
       "render_readme": true,
-      "content_in_root": false, 
-      "category": "dashboard",
-      "homeassistant": "2023.10.0" 
-    }
+}
