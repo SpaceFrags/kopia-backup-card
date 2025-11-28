@@ -93,6 +93,13 @@ From line 133 of `kopia_backup_card.js` the custom icons can be changed, set or 
 | **homeassistant** | Yes | mdi:home-assistant |
 | **photo** | Yes | mdi:image-multiple |
 | **documents** | Yes | mdi:file-document |
+| **github** | Yes | mdi:github |
+| **ollama** | Yes | cust:ollama |
+| **romm** | Yes | cust:romm |
+| **vaultwarden** | Yes | cust:vaultwarden |
+| **plex** | Yes | mdi:plex |
+| **radarr** | Yes | phu:radarr |
+| **sonarr** | Yes | phu:sonarr |
 | * | Yes | mdi:database-sync |
 
 Custom icons pack used:
