@@ -160,6 +160,20 @@ class KopiaBackupCard extends HTMLElement {
         return 'mdi:image-multiple';
       case 'documents':
         return 'mdi:file-document';
+      case 'git':
+        return 'mdi:github';
+      case 'ollama':
+        return 'cust:ollama'; // Assuming 'cust' is a custom icon set the user has
+      case 'romm':
+        return 'cust:romm'; // Assuming 'cust' is a custom icon set the user has
+      case 'vaultwarden':
+        return 'cust:vaultwarden'; // Assuming 'cust' is a custom icon set the user has
+      case 'plex':
+        return 'mdi:plex';
+      case 'radarr':
+        return 'phu:radarr'; // Assuming 'phu' is a custom icon set the user has
+      case 'sonarr':
+        return 'phu:sonarr'; // Assuming 'phu' is a custom icon set the user has
       default:
         return 'mdi:database-sync'; // Generic backup icon
     }
