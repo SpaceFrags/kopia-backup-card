@@ -73,8 +73,7 @@ After installation, add a new **Custom: Kopia Backup Status Card** to your dashb
 
 ```yaml
 type: custom:kopia-backup-card
-# REQUIRED: This must match the Webhook ID you configured in the Kopia Webhook Integration.
-device: main_server_backups 
+device: main_server_backups # REQUIRED: This must match the Webhook ID you configured in the Kopia Webhook Integration.
 name: Home Server Backups
 show_shadow: true # Optional: Keep the shadow effect
 ```
