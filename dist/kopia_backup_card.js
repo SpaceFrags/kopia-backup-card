@@ -60,7 +60,7 @@ class KopiaBackupCard extends HTMLElement {
           display: flex;
           align-items: center;
           /* Restoring the "square" look with custom colors */
-          background-color: var(--ha-card-background-color, #f0f0f0);
+          background-color: var(--primary-background-color);
           border-radius: 8px;
           padding: 6px 8px;
           ${config.show_shadow !== false ? 'box-shadow: inset 0px 0px 5px rgba(0,0,0,0.05);' : ''}
