@@ -86,19 +86,21 @@ From line 133 of `kopia_backup_card.js` the custom icons can be changed, set or 
 | State | Native icon | Icon name |
 | :--- | :---: | :--- |
 | **docker** | Yes | mdi:docker |
-| **immich** | Yes | mdi:camera-iris |
+| **immich** | No | cust:immich |
 | **nextcloud** | No | phu:nextcloud |
 | **paperless** | No | cust:paperless |
 | **homeassistant** | Yes | mdi:home-assistant |
 | **photo** | Yes | mdi:image-multiple |
 | **documents** | Yes | mdi:file-document |
 | **github** | Yes | mdi:github |
-| **ollama** | Yes | cust:ollama |
-| **romm** | Yes | cust:romm |
-| **vaultwarden** | Yes | cust:vaultwarden |
+| **ollama** | No | cust:ollama |
+| **romm** | No | cust:romm |
+| **vaultwarden** | No | cust:vaultwarden |
 | **plex** | Yes | mdi:plex |
-| **radarr** | Yes | phu:radarr |
-| **sonarr** | Yes | phu:sonarr |
+| **radarr** | No | phu:radarr |
+| **sonarr** | No | phu:sonarr |
+| **komodo** | No | cust:komodo |
+| **opencloud** | No | cust:opencloud |
 | * | Yes | mdi:database-sync |
 
 Custom icons pack used:
