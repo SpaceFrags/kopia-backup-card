@@ -149,7 +149,7 @@ class KopiaBackupCard extends HTMLElement {
       case 'docker':
         return 'mdi:docker';
       case 'immich':
-        return 'mdi:camera-iris';
+        return 'cust:immich'; // Assuming 'cust' is a custom icon set the user has
       case 'nextcloud':
         return 'phu:nextcloud'; // Assuming 'phu' is a custom icon set the user has
       case 'paperless':
@@ -174,6 +174,10 @@ class KopiaBackupCard extends HTMLElement {
         return 'phu:radarr'; // Assuming 'phu' is a custom icon set the user has
       case 'sonarr':
         return 'phu:sonarr'; // Assuming 'phu' is a custom icon set the user has
+      case 'opencloud':
+        return 'cust:opencloud'; // Assuming 'cust' is a custom icon set the user has
+      case 'komodo':
+        return 'cust:komodo'; // Assuming 'cust' is a custom icon set the user has
       default:
         return 'mdi:database-sync'; // Generic backup icon
     }
